@@ -1,0 +1,51 @@
+#parte1 {
+    float: left;
+    max-width: 60%;
+   
+}
+img {
+  max-height: 100%;  
+}
+
+
+#parte1 > img {
+    width: 100%;
+    background-color: aliceblue;
+    height: 250px;
+   
+}
+.texto1 {
+    background-color: aliceblue;
+   
+}
+.hijo2 {
+    background-color: aliceblue;
+   
+}
+.flex-port  {
+    background-color: #af1b72;
+    
+    font-size: 20px;
+    text-align: center;
+    
+    height: 80px;
+  
+   
+    
+  }
+  #parte2 {
+    float: right;
+    width: 40%;
+   
+   }
+.texto3 {background-color: aqua;
+   
+    height: 200px;
+    text-align: center;
+}
+body {
+background-color: rgb(88, 18, 180);
+}
+#nav {
+    background-color: rgb(248, 246, 246);
+    }
