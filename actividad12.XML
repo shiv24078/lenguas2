@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cabeza id="CDs en oferta">
+    <CD>
+        <Titulo>Still got the blues</Titulo>
+        <Artista>Gary Moore</Artista>
+        <Pais>UK</Pais>
+        <CompañiaDiscographica>Virgin Records</CompañiaDiscographica>
+        <Precio>10.20</Precio>
+        <AñoDePublicacion>1990</AñoDePublicacion>
+    </CD>
+    <CD>
+        <Titulo>One night only</Titulo>
+        <Artista>Bee Gees</Artista>
+        <Pais>UK</Pais>
+        <CompañiaDiscographica>Polydor</CompañiaDiscographica>
+        <Precio>10.90</Precio>
+        <AñoDePublicacion>1998</AñoDePublicacion>
+    </CD>
+    <CD>
+        <Titulo>When a man loves a woman</Titulo>
+        <Artista>Percy Sledge</Artista>
+        <Pais>USA</Pais>
+        <CompañiaDiscographica>Atlantic</CompañiaDiscographica>
+        <Precio>8.70</Precio>
+        <AñoDePublicacion>1987</AñoDePublicacion>
+    </CD>
+    <CD>
+        <Titulo>Big Willie style</Titulo>
+        <Artista>Will Smith</Artista>
+        <Pais>USA</Pais>
+        <CompañiaDiscographica>Columbia</CompañiaDiscographica>
+        <Precio>9.90</Precio>
+        <AñoDePublicacion>1997</AñoDePublicacion>
+    </CD>
+    <CD>
+        <Titulo>La canción de Juan Perro</Titulo>
+        <Artista>Radio Futura</Artista>
+        <Pais>España</Pais>
+        <CompañiaDiscographica>Sony Music-Ariola</CompañiaDiscographica>
+        <Precio>9.90</Precio>
+        <AñoDePublicacion>1987</AñoDePublicacion>
+    </CD>
+    <CD>
+        <Titulo>Still got the blues</Titulo>
+        <Artista>Gary Moore</Artista>
+        <Pais>UK</Pais>
+        <CompañiaDiscographica>Virgin Records</CompañiaDiscographica>
+        <Precio>10.20</Precio>
+        <AñoDePublicacion>1990</AñoDePublicacion>
+    </CD>
+
+
+</Cabeza>
