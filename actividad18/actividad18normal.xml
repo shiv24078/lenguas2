@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE factura [
     <!ELEMENT factura (datos_empresa, datos_cliente, datos_factura)*>
-    <!ELEMENT datos_empresa (nombre, dir, poblacion, provincia, cif, telefono )>
+    <!ELEMENT datos_empresa (nombre, dir, poblacion, provincia, cif, telefono)>
+    <!ATTLIST factura telefono CDATA "0">
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT dir (#PCDATA)>
     <!ELEMENT poblacion (#PCDATA)>
@@ -21,9 +22,10 @@
     <!ATTLIST factura n_fac ID #REQUIRED>
     <!ATTLIST datos_cliente n_cli ID #REQUIRED>
     <!ATTLIST datos_factura n_ped ID #REQUIRED>
+    <!ATTLIST datos_factura f_pago (en1|en2|en3) "efectivo" "tarjeta" "plazos">
 
     <!ATTLIST poblacion cod_postal CDATA "28043">
-    <!ATTLIST poblacion cod_postal CDATA "28043">
+    <!ATTLIST datos_factura iva CDATA "16">
 
 
  
