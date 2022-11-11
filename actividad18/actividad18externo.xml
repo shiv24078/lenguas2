@@ -1,49 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE factura [
-    <!ELEMENT factura (datos_empresa, datos_cliente, datos_factura)*>
-    <!ELEMENT datos_empresa (nombre, dir, poblacion, provincia, cif, telefono, fax)>
-    
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT dir (#PCDATA)>
-    <!ELEMENT poblacion (#PCDATA)>
-    <!ELEMENT provincia (#PCDATA)>
-    <!ELEMENT cif (#PCDATA)>
-    <!ELEMENT telefono EMPTY>
-    <!ELEMENT fax EMPTY>
-
-    <!ELEMENT datos_cliente (nombre, dir_env, poblacion, provincia)>
-    <!ELEMENT dir_env (#PCDATA)>
-    <!ELEMENT datos_factura (fecha, linea*, base, cuota_iva, total)>
-    <!ELEMENT fecha (#PCDATA)>
-    <!ELEMENT base (#PCDATA)>
-    <!ELEMENT cuota_iva (#PCDATA)>
-    <!ELEMENT total (#PCDATA)>
-   
-    <!ELEMENT linea (ref, desc, cant, precio, importe)*>
-    <!ELEMENT ref (#PCDATA)>
-    <!ELEMENT desc (#PCDATA)>
-    <!ELEMENT cant (#PCDATA)>
-    <!ELEMENT precio (#PCDATA)>
-    <!ELEMENT importe (#PCDATA)>
-
-    <!ATTLIST factura n_fac ID #REQUIRED>
-    <!ATTLIST datos_cliente n_cli ID #REQUIRED>
-    <!ATTLIST datos_factura n_ped ID #REQUIRED>
-    <!ATTLIST datos_factura n_ped ID #REQUIRED>
-    <!ATTLIST telefono num_tel CDATA #FIXED "917776688">
-    <!ATTLIST fax num_fax CDATA #FIXED "917776699">
-
-   
-   <!ATTLIST datos_factura f_pago (efectivo|tarjeta|plazos) #REQUIRED>
-   <!ATTLIST datos_factura moneda CDATA #FIXED "euro">
-   <!ATTLIST datos_factura iva NMTOKEN #REQUIRED>
-   <!ATTLIST poblacion cod_postal CDATA "">
-   
-
- 
-    
-    
-]>
+<!DOCTYPE factura SYSTEM "factura.dtd">
 
 <factura n_fac="f999">
     <datos_empresa>
@@ -53,7 +9,7 @@
         <provincia>Madrid</provincia>
         <cif>Q-9876543</cif>
         <telefono />
-        <fax/>
+        <fax  />
     </datos_empresa>
     <datos_cliente n_cli="c879">
         <nombre>Darío, Bueno Gutiérrez</nombre>
