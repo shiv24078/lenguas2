@@ -1,23 +1,25 @@
 #parte1 {
     float: left;
     max-width: 60%;
+    max-height: 90%;
    
 }
 img {
   max-height: 100%;  
 }
+.nav{
+    float: left;
+}
 
 
-#parte1 > img {
+.hijo1 {
     width: 100%;
     background-color: aliceblue;
-    height: 300px;
+    height: 30%;
    
 }
-.texto1 {
-    background-color: aliceblue;
    
-}
+
 .hijo2 {
     background-color: aliceblue;
    
@@ -35,12 +37,13 @@ img {
   }
   #parte2 {
     float: right;
-    width: 40%;
+    width: 30%;
+    height: 50%;
    
    }
 .texto3 {background-color: aqua;
    
-    height: 200px;
+    height: 20%;
     text-align: center;
 }
 body {
