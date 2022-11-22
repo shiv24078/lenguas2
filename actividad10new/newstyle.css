@@ -1,80 +1,78 @@
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(133, 45, 239);
 }
-
+ 
 header {
     width: 100%;
-    background-color: white;
+    background-color: rgb(250, 250, 250);
     text-align: center;
     display: flex;
 }
-
-.marco {
-    width: 25%;
-    flex-direction: row;
-    display: flex;
-}
-
-.inicio {
-    width: 30%;
-    margin-right: 1cm;
-}
-
-.servicios {
-    width: 30%;
-    margin-right: 1cm;
-}
-
-.blog {
-    width: 30%;
-    margin-right: 1cm;
-}
-
-.main {
-    width: 85%;
-    background-color: white;
+ 
+ 
+ 
+.navbar {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 50%;
+  }
+ 
+ 
+  .navbar a {
+    float: left;
+    color: #040404;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+ 
+.total {
+    width: 70%;
+    background-color:rgb(251, 251, 251);
     float: left;
 }
-
-.gojo1 {
+ 
+.imagen {
     width: 100%;
     height: 40%;
 }
-
-.gojo {
-    height: 55vh;
+ 
+.img {
+    height: 350px;
     width: 100%;
-    
+   
 }
-
-.texto {
+ 
+.text {
     width: 100%;
-    height: 80vh;
+    height: 500px;
     flex-direction: column;
     text-align: justify;
-    margin-left: 1cm;
-    margin-top: 1cm;
+   
 }
-
-.textito {
+ 
+.t1 {
     margin-left: 1cm;
+    margin-right: 1cm;
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
-    margin-right: 1cm;
+   
 }
-
-.boton {
+ 
+.TextSingle {
     width: 100%;
     height: 80px;
     flex-direction: column;
-    background-color: pink;
+    background-color: rgb(238, 58, 112);
     text-align: center;
     flex-direction: column;
 }
-
-.Pderecha {
-    width: 15%;
-    background-color: aqua;
+ 
+.Parte2 {
+    width: 30%;
+    background-color: rgb(58, 187, 247);
     float: right;
     text-align: center;
+    height: 200px;
 }
