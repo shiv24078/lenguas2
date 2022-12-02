@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet href="actividad21.xsl" type="text/xsl"?>
+<?xml-model href="actividad21.xsd"?>
 
 <Tabla>
         <Descripcion id="IBM da conocer el PC">
@@ -26,3 +27,6 @@
             </Fecha>
         </Descripcion>
     </Tabla>
+
+
+    
