@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Cabeza">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="CD" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Titulo" type="xs:string" />
+                            <xs:element name="Artista" type="xs:string" />
+                            <xs:element name="Pais" type="xs:string" />
+                            <xs:element name="CompañiaDiscographica" type="xs:string" />
+                            <xs:element name="Precio" type="xs:string" />
+                            <xs:element name="AñoDePublicacion" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
