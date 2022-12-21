@@ -8,12 +8,12 @@
         "CD": [
         <xsl:for-each select="Cabeza/CD">
             {
-            "Title": "<xsl:value-of select="Titulo"/>",
-            "Artist": "<xsl:value-of select="Artista"/>",
-            "Country": "<xsl:value-of select="Pais"/>",
-            "Record Company": "<xsl:value-of select="CompañiaDiscographica"/>",
-            "Price": <xsl:value-of select="Precio"/>,
-            "Year": <xsl:value-of select="AñoDePublicacion"/>
+            "Titulo": "<xsl:value-of select="Titulo"/>",
+            "Artista": "<xsl:value-of select="Artista"/>",
+            "Pais": "<xsl:value-of select="Pais"/>",
+            "Compañia Discographica": "<xsl:value-of select="CompañiaDiscographica"/>",
+            "Precio": <xsl:value-of select="Precio"/>,
+            "Año De Publicacion": <xsl:value-of select="AñoDePublicacion"/>
             }<xsl:if test="position() != last()">,</xsl:if>
         </xsl:for-each>
         ]
