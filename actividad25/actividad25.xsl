@@ -31,9 +31,7 @@
             IVA: "<xsl:value-of select="IVA"/>"
             IMPORTE: "<xsl:value-of select="IMPORTE"/>"
         </xsl:for-each>
-      BaseImponible: "<xsl:value-of select="/FACTURA/DatosFACTURA/
-
-BaseImponible"/>"
+BaseImponible: "<xsl:value-of select="/FACTURA/DatosFACTURA/BaseImponible"/>"
 IVA: "<xsl:value-of select="/FACTURA/DatosFACTURA/IVA"/>"
 CuotaIVA: "<xsl:value-of select="/FACTURA/DatosFACTURA/CuotaIVA"/>"
 TotalFactura: "<xsl:value-of select="/FACTURA/DatosFACTURA/TotalFactura"/>"
