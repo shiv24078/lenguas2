@@ -3,7 +3,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="text" indent="yes"/>   
     <xsl:template match="/">
-        
+        {
         "Cabeza":{
         "CD": [
         <xsl:for-each select="Cabeza/CD">
@@ -17,6 +17,7 @@
             }<xsl:if test="position() != last()">,</xsl:if>
         </xsl:for-each>
         ]
+        }
         }
     </xsl:template>
     
