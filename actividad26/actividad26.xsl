@@ -41,11 +41,11 @@
                     }
 
                     .description {
-                    color: #3339; /* or any other color */
-                    font-size: 1.2rem; /* adjust as needed */
+                    color: #3339;
+                    font-size: 1.2rem; 
                     text-align: center;
                     margin: 0 auto;
-                    margin-top: 22px; /* add some margin for spacing */
+                    margin-top: 22px; 
                     width:75%;
                     }
 
