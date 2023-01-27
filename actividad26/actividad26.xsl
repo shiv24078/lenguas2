@@ -173,8 +173,4 @@
             </body>
         </html>
     </xsl:template>
-<<<<<<< HEAD
 </xsl:stylesheet>
-=======
-</xsl:stylesheet>
->>>>>>> d43086732a89192dccd0540541acfb8adabf2a2f
