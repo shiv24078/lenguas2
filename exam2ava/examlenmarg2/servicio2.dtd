@@ -1,0 +1,14 @@
+<!ELEMENT consulta (servicio+)>
+<!ELEMENT servicio (tipo,empleado+,plazas,reserva,horario)>
+<!ATTLIST servicio precio CDATA #REQUIRED>
+<!ATTLIST servicio bono5 CDATA #IMPLIED>
+<!ATTLIST servicio bono10 CDATA #IMPLIED>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT empleado (#PCDATA|nombre)*>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre id NMTOKEN #REQUIRED>
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT reserva (#PCDATA)>
+<!ELEMENT horario (dia+,hora+)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>

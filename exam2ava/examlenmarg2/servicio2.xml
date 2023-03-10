@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="servicio2.xsl"?>
+<?xml-model href="servicio2.dtd"?>
+<consulta>
+    <servicio precio="35€/hora" bono5="160€" bono10="300€">
+        <tipo>fisioterapia</tipo>    
+        <empleado>
+          <nombre id="1">Chus</nombre>
+          <nombre id="2">Marga</nombre>
+          <nombre id="3">Silvia</nombre>
+        </empleado>
+      <plazas>sin límite</plazas>
+      <reserva>previa</reserva>
+      <horario>
+        <dia>lunes a viernes</dia>
+        <hora>1 hora entre 9:00-13:00</hora>
+        <hora>1 hora entre 15:00-19:00</hora>
+      </horario>
+    </servicio>
+    <servicio precio="25€/hora" bono5="100€" bono10="190€">
+        <tipo>podología</tipo>
+        <empleado>
+          <nombre id="4">Joana</nombre>
+        </empleado>
+      <plazas>sin límite</plazas>
+      <reserva>previa</reserva>
+      <horario>
+        <dia>lunes a viernes</dia>
+        <hora>1 hora entre 9:00-13:00</hora>
+        <hora>1 hora entre15:00-19:00</hora>
+      </horario>
+    </servicio>
+    <servicio precio="50€/hora" bono5="220€" bono10="400€">
+        <tipo>psicología</tipo>
+        <empleado>
+          <nombre id="5">Aina</nombre>
+        </empleado>
+      <plazas>sin límite</plazas>
+      <reserva>previa</reserva>
+      <horario>
+        <dia>lunes a viernes</dia>
+        <hora>1 hora entre 9:00-13:00</hora>
+        <hora>1 hora entre 15:00-19:00</hora>
+      </horario>
+    </servicio>
+    <servicio  precio="25€/mes">
+      <tipo>yoga</tipo>
+      <empleado>
+        <nombre id="6">Biel</nombre>
+        <nombre id="7">Alex</nombre>
+      </empleado>
+      <plazas>20</plazas>
+      <reserva>No previa</reserva>
+      <horario>
+        <dia>lunes</dia>
+        <dia>miércoles</dia>
+        <dia>viernes</dia>
+        <hora>11:00-12:30</hora>
+        <hora>17:00-18:30</hora>
+      </horario>
+    </servicio>
+    <servicio  precio="30€/mes">
+        <tipo>Pilates</tipo>
+      <empleado>
+        <nombre id="8">Tolo</nombre>
+      </empleado>
+      <plazas>25</plazas>
+      <reserva>No previa</reserva>
+      <horario>
+        <dia>martes</dia>
+        <dia>jueves</dia>
+        <dia>viernes</dia>
+        <hora>10:00-11:30</hora>
+        <hora>16:00-17:30</hora>
+      </horario>
+    </servicio>
+    <servicio precio="35€/mes">
+        <tipo>meditación</tipo>
+      <empleado>
+        <nombre id="6">Alex</nombre>
+        <nombre id="7">Biel</nombre>
+      </empleado>
+      <empleado>Alex</empleado>
+      <plazas>10</plazas>
+      <reserva>No previa</reserva>
+      <horario>
+        <dia>lunes a viernes</dia>
+        <hora>10:00-11:00</hora>
+        <hora>19:00-20:00</hora>
+    </horario>
+</servicio>
+</consulta>
